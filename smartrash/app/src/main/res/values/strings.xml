@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmarTrash</string>
+    <string name="home">Home</string>
+    <string name="school">School/College</string>
+    <string name="industry">Industry</string>
+    <string name="hospital">Hospital</string>
+    <string name="others">Others</string>
+</resources>

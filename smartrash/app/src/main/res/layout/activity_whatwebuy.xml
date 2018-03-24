@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <include layout="@layout/headerback"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/beverage_bottles"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:text="Plastic"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/plastic_plus"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="160dp"/>
+        <ImageView
+            android:id="@+id/plastic_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="160dp"
+
+        />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/black"></View>
+    <LinearLayout
+        android:id="@+id/plastic_drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beverage bottles"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shampoo bottles"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cream and other cosmetic bottles"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Used Oil Bottles"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cosmetic tubes"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plastic bags"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/newspapers"
+            android:scaleType="fitXY"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:text="Paper"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/paper_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="160dp"/>
+        <ImageView
+            android:id="@+id/paper_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="160dp"
+
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"></View>
+    <LinearLayout
+        android:id="@+id/paper_drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White and Pastel Paper"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old Books"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magazines and Catalogues"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newspapers"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardboard"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/tin"
+            android:scaleType="fitXY"
+
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:text="Metals/Tins"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/metal_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="110dp"/>
+        <ImageView
+            android:id="@+id/metal_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="110dp"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"></View>
+    <LinearLayout
+        android:id="@+id/metal_drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aluminium foil"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metal cans"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aerosol cans"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deodorant containers"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin paint cans"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/glass"
+            android:scaleType="fitXY"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:text="Glass"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/glass_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="160dp"/>
+        <ImageView
+            android:id="@+id/glass_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="160dp"
+
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"></View>
+    <LinearLayout
+        android:id="@+id/glass_drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glass jars"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine bottles"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cosmetic glass bottles"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ewaste"
+            android:scaleType="fitXY"
+
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:text="E-Waste"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/ewaste_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="70dp"/>
+        <ImageView
+            android:id="@+id/ewaste_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="70dp"
+
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"></View>
+    <LinearLayout
+        android:id="@+id/ewaste_drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AC"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laptop"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Printer"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wire"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/products"
+            android:scaleType="fitXY"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:text="Others"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/others_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus"
+            android:layout_marginLeft="160dp"/>
+        <ImageView
+            android:id="@+id/others_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/minus"
+            android:layout_marginLeft="160dp"
+
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"></View>
+    <LinearLayout
+        android:id="@+id/others_drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Used ointment tubes"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Used toothpaste tubes"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tetra packs"
+            android:layout_marginLeft="57dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+        </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
+

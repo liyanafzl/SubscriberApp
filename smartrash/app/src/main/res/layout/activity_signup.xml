@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login">
+
+    <include layout="@layout/headerback"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Name"
+            android:textColorHint="@color/black"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:singleLine="true"/>
+
+
+
+        <EditText
+            android:id="@+id/signup_mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Mobile number"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/signup_loctype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="18dp"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Location Type"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+        <RadioGroup
+            android:id="@+id/loc_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+                <RadioButton
+                    android:id="@+id/homeradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home"/>
+                <RadioButton
+                    android:id="@+id/schoolradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school"/>
+                <RadioButton
+                    android:id="@+id/hospitalradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hospital"/>
+                <RadioButton
+                    android:id="@+id/industryradio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/industry"/>
+                <RadioButton
+                    android:id="@+id/othersradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/others"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/signup_ad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Type your address "
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/signup_ad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+        <Button
+            android:id="@+id/signup_gps"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:background="@color/green"
+            android:layout_gravity="center"
+            android:text="Get GPS Location"/>
+        <TextView
+            android:id="@+id/signup_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:hint="Latitude"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+        <TextView
+            android:id="@+id/signup_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:hint="Longitude"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/signup_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="City"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Email"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/signup_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/signup_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:paddingTop="10dp"
+            android:layout_marginTop="0dp"
+            android:drawablePadding="1dp"
+            android:inputType="text"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:hint="Confirm password"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginRight="30dp"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="SIGN UP"
+            android:textColor="@color/blue"
+            android:background="#FFFFFF"/>
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

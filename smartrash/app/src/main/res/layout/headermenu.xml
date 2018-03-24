@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/green"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/header_menu"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        android:src="@drawable/menuwhite"/>
+    <TextView
+        android:id="@+id/header_menu_text"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:gravity="center"
+        android:paddingLeft="-5dp"
+        android:layout_marginRight="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/headermenu_cart"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/cartw"
+        android:padding="3dp"
+        android:layout_marginLeft="-80dp"
+       />
+    <ImageView
+        android:id="@+id/header_menu_noti"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/notification"
+        />
+
+
+</LinearLayout>

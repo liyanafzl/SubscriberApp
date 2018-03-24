@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/headerbacksubscription" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="select the duration:"
+        android:id="@+id/textView2"
+        android:textColor="#040303"
+        android:layout_marginBottom="30dp"/>
+
+    <RadioButton
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 month"
+        android:id="@+id/radioButton1"
+        android:checked="true"
+        android:textColor="#070404"/>
+    <RadioButton
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 months"
+        android:id="@+id/radioButton2"
+        android:checked="false"
+        android:textColor="#070404" />
+    <RadioButton
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 months"
+        android:id="@+id/radioButton3"
+        android:checked="false"
+        android:textColor="#070404"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Rs. 500"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscribe"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+
+</LinearLayout>
